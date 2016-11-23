@@ -4,7 +4,7 @@ November 23, 2016
 
 [[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/][FabTabs]] is a nice Firefox extension that colorizes tabs in the tab bar according to the actual colors of the web page the tab contains.  It was originally made by a fellow named [[http://www.martijnkooij.nl/][Martijn Kooij]], aka Captain Caveman.  Unfortunately, in August of 2012, he [[http://www.martijnkooij.nl/2012/08/end-of-life-for-my-firefox-extensions/][stopped developing his Firefox extensions]].  The last version he released was [[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/versions/1.4.9.1-signed.1-signed][1.4.9.1-signed.1-signed]].
 
-No problem, it still works, right?  Well, almost.  You see, somehow or another, a nefarious person going by the name "[[https://addons.mozilla.org/en-US/firefox/user/ppclick/][ppclick]]" took over the extension's page on the Firefox Addons site (aka AMO), and he released version 1.5.2.1-signed.1-signed, which has this exciting new feature:
+No problem, it still works, right?  Well, almost.  You see, somehow or another, a nefarious person going by the name "[[https://addons.mozilla.org/en-US/firefox/user/ppclick/][ppclick]]" took over the extension's page on the Firefox Addons site (aka AMO), and on February 26, 2013 he released version 1.5.2.1-signed.1-signed, which has this exciting new feature:
 
 #+BEGIN_QUOTE
 Use new and exciting image based price comparison (WizeShoppy) feature for your Online Shopping !!!
