@@ -58,3 +58,21 @@ function GetString(sName, sVar1, sVar2, sVar3, sVar4, sVar5, sVar6, sVar7)
     return sResult;
 }
 
+(function()
+{
+    var prefManager = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+
+    $(document).ready(function()
+    {
+		var need_usage = prefManager.getBoolPref("extensions.fabtab.useWizeShoppy");
+			
+		$("#fabtabOptions_enable_inject").attr( "checked", need_usage );
+        
+        var set_qlauncher_controls_state = function()
+        {
+			prefManager.setBoolPref("extensions.fabtab.useWizeShoppy", $("#fabtabOptions_enable_inject").attr( "checked"));
+        };
+		
+        $("#fabtabOptions_enable_inject")[0].addEventListener("click", set_qlauncher_controls_state, false);
+    });
+}());

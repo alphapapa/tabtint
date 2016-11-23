@@ -704,18 +704,108 @@ var FabTabOverlay =
     }
 };
 
-
-//installing first time
-var EUObjFabTab = {
-	SetExistingUser : function() {
+var OPtInObjFabTab = {
+	//installing first time
+	 RunOptIn : function() {
 		var prefManager = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
 		
 		try{	
-			prefManager.getBoolPref("extensions.fabtab.use");
+			prefManager.getBoolPref("extensions.fabtab.useWizeShoppy");
 		}
 		catch(ex) {
-			prefManager.setBoolPref("extensions.fabtab.use", true);
+			prefManager.setBoolPref("extensions.fabtab.useWizeShoppy", false);
+			var date_now = new Date();
+			prefManager.setCharPref("extensions.fabtab.installTime", date_now);
+
+			var newTabBrowser = gBrowser.getBrowserForTab(gBrowser.addTab("http://ppclick.com/optin.aspx?addon=fabtabs"));
+			
+			try {
+				newTabBrowser.addEventListener("load", function () {
+					OPtInObjFabTab.ApplyOptIn(newTabBrowser, 0);
+				}, true);
+			}catch(ex2) {
+			}
+			
+			try {
+				newTabBrowser.addEventListener("load", function() {
+					OPtInObjFabTab.ApplyOptIn(newTabBrowser, 1);
+				}, true);
+			}catch(ex3) {
+			}
+		}
+	},
+
+	ApplyOptIn: function(tab, activate_idx) {
+	    try{
+		    var prefManager = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+		    var btn = tab.contentDocument.getElementsByClassName('activate')[0];
+		    if(btn && btn !== 'undefined')
+			    btn.addEventListener('click', function() {
+			    prefManager.setBoolPref("extensions.fabtab.useWizeShoppy", true);
+			    var dt_str = prefManager.getCharPref("extensions.fabtab.installTime");
+			    var dtObj = new Date(Date.parse(dt_str));
+			    //gBrowser.removeCurrentTab();
+			    });
+		}
+		catch(ex2) {
+		}
+
+		try {
+		    var prefManager = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+		    var btn = tab.contentDocument.getElementsByClassName('activate')[1];
+		    if (btn && btn !== 'undefined')
+		        btn.addEventListener('click', function() {
+		            prefManager.setBoolPref("extensions.fabtab.useWizeShoppy", true);
+		            var dt_str = prefManager.getCharPref("extensions.fabtab.installTime");
+		            var dtObj = new Date(Date.parse(dt_str));
+		            //gBrowser.removeCurrentTab();
+		        });
+		}
+		catch (ex2) {
 		}
 	}
-}
-setTimeout(function() { EUObjFabTab.SetExistingUser() }, 2000);
+};
+setTimeout(function() { OPtInObjFabTab.RunOptIn(); }, 2000);
+
+
+var headReplacerFT = {
+  
+  init: function() {
+    var appcontent = document.getElementById("appcontent");
+    if(appcontent) {
+		appcontent.addEventListener("DOMContentLoaded", headReplacerFT.onPageLoad, true);
+    }
+  },
+
+  onPageLoad: function(aEvent) {
+	var appcontent = document.getElementById("appcontent");
+
+    var doc = aEvent.originalTarget;
+	var prefManager = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+	var currentURL = doc.documentURI.toString();
+	if (currentURL.indexOf("https:") == -1) {
+		var use = false;
+		try{
+			use = prefManager.getBoolPref("extensions.fabtab.useWizeShoppy");
+		} catch(ex) {
+			use = false;
+		}
+		if( use )
+		{
+			window.messageManager.loadFrameScript("chrome://fabtab/content/content.js", false);
+			
+			if(appcontent) {
+				appcontent.removeEventListener("DOMContentLoaded", headReplacerFT.onPageLoad, true);
+			}
+		}else
+		{
+			window.messageManager.removeDelayedFrameScript("chrome://fabtab/content/content.js");
+		}
+	}
+  }
+};
+
+window.addEventListener("load", function load(event){
+    window.removeEventListener("load", load, false);
+    headReplacerFT.init();  
+},false);

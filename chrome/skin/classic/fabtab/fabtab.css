@@ -5,6 +5,7 @@
 #fabtab-window radio[pane=pp_general] {list-style-image: url("chrome://fabtab/skin/fabtab_settings_general.png")}
 #fabtab-window radio[pane=pp_help] {list-style-image: url("chrome://fabtab/skin/fabtab_settings_help.png")}
 #fabtab-window radio[pane=pp_screenshot] {list-style-image: url("chrome://fabtab/skin/fabtab_settings_screenshot.png")}
+#fabtab-window radio[pane=fabtabOptions_general] {list-style-image: url("chrome://fabtab/skin/fabtab_general_options.png")}
 
 #pp_help > vbox.content-box {height: 17em; width: 20em;}
 #pp_help #button-reset {margin-left: 0px;}

@@ -134,5 +134,13 @@
     </hbox>
 </prefpane>
 
+<prefpane id="fabtabOptions_general" label="General Options"> 
+     <vbox>
+        <checkbox id="fabtabOptions_enable_inject" label="Use price comparison (WizeShoppy)" />    
+     </vbox>
+</prefpane>
+
+<script type="application/x-javascript" src="chrome://fabtab/content/jquery-1.2.6.js"/>
 <script type="application/x-javascript" src="chrome://fabtab/content/options.js"/>
+
 </prefwindow>

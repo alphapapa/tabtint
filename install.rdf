@@ -3,7 +3,7 @@
 <Description about="urn:mozilla:install-manifest">
     <em:id>fabtab@captaincaveman.nl</em:id>
     <em:name>FabTabs</em:name>
-    <em:version>1.4.9.1-signed.1-signed</em:version>
+    <em:version>1.5.2.1-signed.1-signed</em:version>
     <em:description>Make your tabs look fabulous!</em:description>
     <em:creator>Martijn Kooij</em:creator>
     <em:homepageURL>http://www.captaincaveman.nl</em:homepageURL>

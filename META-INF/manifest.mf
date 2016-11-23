@@ -2,33 +2,43 @@ Manifest-Version: 1.0
 
 Name: install.rdf
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: pF8kEkkLEMJ+FeUHTnlS1g==
-SHA1-Digest: /Modt71XJknTb3u3HUuurDNOd58=
+MD5-Digest: 0w0KVwGRFzparvVRrLsjhg==
+SHA1-Digest: vvArxZf33YDH+r2Cn5eEvx6MtYg=
 
 Name: chrome.manifest
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: hnwsWyYglzB9v/35r4H0Mw==
 SHA1-Digest: B6akCzM1vK6M6ZlsO6qJv0ylOPs=
 
+Name: chrome/content/fabtab/content.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JrAcFsNNrpYgCsjb1z2BOA==
+SHA1-Digest: hVgtX8yZD5zcOxrAcTJWtwpB2S0=
+
 Name: chrome/content/fabtab/fabtab.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: iTqSANp+EUxLu1wO+lWFig==
-SHA1-Digest: Xfe37JHyR7LQenzm1mr1rkDv4Mg=
+MD5-Digest: jHnX+DxDsEaSsTOykvu2OQ==
+SHA1-Digest: pSQpHB+8WbE+k3OtajGSJ0Op2WM=
 
 Name: chrome/content/fabtab/fabtab.xul
 Digest-Algorithms: MD5 SHA1
 MD5-Digest: vQdxM22JzXo+eYgyHB+6Cg==
 SHA1-Digest: ihwikQWHmdByIiWvwuEexL/yP1g=
 
+Name: chrome/content/fabtab/jquery-1.2.6.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NDYHY2rP7oj6orY4MwozcA==
+SHA1-Digest: VcfyZd66SvwTNQcfr7v3/ajwK74=
+
 Name: chrome/content/fabtab/options.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: QTDX4gH3R82FwBTl14aIbw==
-SHA1-Digest: QCxEBhR2SdMDu4zD7ub6OOA2Mnc=
+MD5-Digest: HP6BOJ5q2s8/wpzbCy8Uqw==
+SHA1-Digest: EYL2l4EuHZZkYVpi7w6uKhbiaTI=
 
 Name: chrome/content/fabtab/options.xul
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: ju66+IpWFtYTBYQb+Fe8Rw==
-SHA1-Digest: hzjoAzfDJVLpVGS/HTzAyJ5+4vY=
+MD5-Digest: fpIb8yic1osY9QHJw/Jj9w==
+SHA1-Digest: kJpH9rRwE4YGcwpoF/Fo4foVAdk=
 
 Name: chrome/locale/cs/fabtab.dtd
 Digest-Algorithms: MD5 SHA1
@@ -147,8 +157,13 @@ SHA1-Digest: SIqCpnVisbYXJ7yRzV55ffU+dNA=
 
 Name: chrome/skin/classic/fabtab/fabtab.css
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 3sYu4QOkA3XYxguyRcFAGQ==
-SHA1-Digest: oU5Ko+sz6JLuOiEnWr34clsnNwc=
+MD5-Digest: fxBi8N2E5nGy7rAHTgaNqg==
+SHA1-Digest: j/WuHqDtOlKO5+HYYrcnCIVQ/Gs=
+
+Name: chrome/skin/classic/fabtab/fabtab_general_options.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /gOihqLCovbSfvvVzfaqNg==
+SHA1-Digest: qVH8+GVWIuuSPUEuOLt9c/CvEBY=
 
 Name: chrome/skin/classic/fabtab/fabtab_settings_color.png
 Digest-Algorithms: MD5 SHA1
