@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://fabtab/locale/fabtab.dtd">
+<?xml-stylesheet href="chrome://fabtab/skin/fabtab.css" type="text/css"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+<script type="application/x-javascript" src="chrome://fabtab/content/fabtab.js"/>
+<stringbundleset id="stringbundleset">
+	<stringbundle id="fabtab-string-bundle" src="chrome://fabtab/locale/fabtab.properties"/>
+</stringbundleset>
+
+<window id="main-window">
+	<html:canvas id="fabtab-canvas" style="display: none;"/>
+</window>
+
+</overlay>

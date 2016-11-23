@@ -1,0 +1,34 @@
+<!ENTITY fabtab.options.title "Impostazioni di FabTabs">
+<!ENTITY fabtab.options.general "Generali">
+<!ENTITY fabtab.options.help "Contenuti guida">
+<!ENTITY fabtab.options.color "Aspetto">
+<!ENTITY fabtab.options.screenshot "Rilevamento area">
+<!ENTITY fabtab.options.general.fuzzycolormatch "Corrispondenza del colore">
+<!ENTITY fabtab.options.general.preventwhite "Esclusione dei colori chiari">
+<!ENTITY fabtab.options.general.preventblack "Esclusione dei colori scuri">
+<!ENTITY fabtab.options.general.x "Punto iniziale orizzontale dell'area della pagina web (in pixel)">
+<!ENTITY fabtab.options.general.y "Punto iniziale verticale dell'area della pagina web (in pixel)">
+<!ENTITY fabtab.options.general.width "Larghezza dell'area della pagina web (in pixel)">
+<!ENTITY fabtab.options.general.height "Altezza dell'area della pagina web (in pixel)">
+<!ENTITY fabtab.options.general.activeonly "Colora solo il cartellino della scheda attiva">
+<!ENTITY fabtab.options.general.opacity "Opacità del cartellino della scheda (&#37;)">
+<!ENTITY fabtab.options.general.saturation "Saturazione del colore (&#37;)">
+<!ENTITY fabtab.options.general.hue "Tonalità del colore (&#37;)">
+<!ENTITY fabtab.options.general.activetabopacity "Opacità del cartellino della scheda attiva (&#37;)">
+<!ENTITY fabtab.options.general.hidecmitems "Non visualizzare le voci di menu contestuale di FabTabs delle schede (riavvio necessario)">
+<!ENTITY fabtab.options.general.colornavbar "Colora le barre degli strumenti posizionate sotto le schede">
+<!ENTITY fabtab.options.general.whitetextthreshold "Soglia di contrasto per il testo bianco">
+<!ENTITY fabtab.options.general.hostnamecache "Memorizza il colore dei cartellini delle schede per nome del server">
+<!ENTITY fabtab.options.help.title.fuzzycolormatch "Corrispondenza del colore">
+<!ENTITY fabtab.options.help.text.fuzzycolormatch "Questa impostazione permette di raggruppare i colori simili definendo le sfumature di colore da considerare come un colore unico, funzione utile ad esempio per i siti web che utilizzano banner con gradienti di colore. Aumentando il valore verranno raggruppati più colori">
+<!ENTITY fabtab.options.help.title.preventblackandwhite "Esclusione dei colori chiari/scuri">
+<!ENTITY fabtab.options.help.text.preventblackandwhite "Queste impostazioni permettono di escludere dalla funzione di rilevamento dell'estensione i colori chiari/scuri, presenti negli sfondi parzialmente bianchi e nel testo nero dei siti web. Impostando i rispettivi valori a 0 verranno rilevati tutti i colori">
+<!ENTITY fabtab.options.help.title.screenshot "Rilevamento area">
+<!ENTITY fabtab.options.help.text.screenshot "Queste impostazioni permettono di definire posizione e dimensioni dell'area della pagina web utilizzata dall'estensione per calcolare il colore prevalente. Nella maggior parte dei casi è sufficiente impostare un riquadro vicino al margine superiore (impostazioni predefinite) poiché solitamente corrisponde all'area in cui vengono posizionati i banner">
+<!ENTITY fabtab.options.help.title.opacity "Opacità del cartellino della scheda/scheda attiva">
+<!ENTITY fabtab.options.help.text.opacity "Queste impostazioni permettono di regolare separatamente l'opacità dei cartellini per le schede in secondo piano e per quella in primo piano (scheda attiva) in modo da agevolarne l'individuazione">
+<!ENTITY fabtab.options.help.title.whitetextthreshold "Soglia di contrasto per il testo bianco">
+<!ENTITY fabtab.options.help.text.whitetextthreshold "Questa impostazione permette di regolare la soglia di modifica del colore del testo nel cartellino della scheda, che passerà automaticamente da nero a bianco se il cartellino della scheda sarà di colore scuro. Aumentando il valore tale passaggio verrà anticipato, mentre impostandolo a 0 oppure a 999 si forzerà l'uso rispettivamente del colore nero oppure bianco">
+<!ENTITY fabtab.options.help.title.hostnamecache "Memorizza il colore dei cartellini delle schede per nome del server">
+<!ENTITY fabtab.options.help.text.hostnamecache "Questa impostazione permette di memorizzare il colore dei cartellini delle schede in base ai nomi dei server (es: www.google.com, addons.mozilla.org, etc) in modo da essere utilizzato per tutte le schede di uno stesso sito web">
+<!ENTITY fabtab.options.help.reset "Ripristina impostazioni predefinite">

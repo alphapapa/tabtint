@@ -1,0 +1,34 @@
+<!ENTITY fabtab.options.title "Inställningar för FabTabs">
+<!ENTITY fabtab.options.general "Allmänt">
+<!ENTITY fabtab.options.help "Hjälp">
+<!ENTITY fabtab.options.color "Färg">
+<!ENTITY fabtab.options.screenshot "Skärmdump">
+<!ENTITY fabtab.options.general.fuzzycolormatch "Färgmatchningsnivå">
+<!ENTITY fabtab.options.general.preventwhite "Exkluderingsnivå vita färger">
+<!ENTITY fabtab.options.general.preventblack "Exkluderingsnivå svarta färger">
+<!ENTITY fabtab.options.general.x "Skärmdump X">
+<!ENTITY fabtab.options.general.y "Skärmdump Y">
+<!ENTITY fabtab.options.general.width "Skärmdumpens bredd">
+<!ENTITY fabtab.options.general.height "Skärmdumpens höjd">
+<!ENTITY fabtab.options.general.activeonly "Färgsätt endast den aktiva fliken">
+<!ENTITY fabtab.options.general.opacity "Ogenomskinlighet för flik (&#37;)">
+<!ENTITY fabtab.options.general.saturation "Mättnad (&#37;)">
+<!ENTITY fabtab.options.general.hue "Nyans (&#37;)">
+<!ENTITY fabtab.options.general.activetabopacity "Ogenomskinlighet för aktiv flik (&#37;)">
+<!ENTITY fabtab.options.general.hidecmitems "Göm menyobjekten i flikens snabbmeny (kräver omstart)">
+<!ENTITY fabtab.options.general.colornavbar "Färglägg alla verktygsfält nedanför flikarna">
+<!ENTITY fabtab.options.general.whitetextthreshold "Kontrasttröskelvärde för vit text">
+<!ENTITY fabtab.options.general.hostnamecache "Cacha flikfärgen efter domännamn">
+<!ENTITY fabtab.options.help.title.fuzzycolormatch "Färgmatchningsnivå">
+<!ENTITY fabtab.options.help.text.fuzzycolormatch "Den här inställningen låter dig gruppera liknande färger. Genom att gruppera färger kan du låta liknande nyanser av en färg att räknas som en enda, vilket ger den möjlighet att rankas högre än en annan färg. Den här inställningen är användbar på webbplatser som använder toning i banderoller. Ju högre värde du anger, desto fler färger grupperas.">
+<!ENTITY fabtab.options.help.title.preventblackandwhite "Exkluderingsnivå svarta och vita färger">
+<!ENTITY fabtab.options.help.text.preventblackandwhite "Den här inställningen låter dig exkludera svarta och vita färger från resultatet. Webbplatser består av en delvis vit bakgrund och svart text, vilket du kanske anser är irrelevant för resultatet för FabTabs. Om du sätter dessa värden till 0 (noll) kommer alla färger att beaktas.">
+<!ENTITY fabtab.options.help.title.screenshot "Skärmdump">
+<!ENTITY fabtab.options.help.text.screenshot "De här är förskjutningarna och dimensionerna för skärmdumpen som FabTabs använder för att beräkna den dominerande färgen. Vanligtvis räcker det med en ruta nära toppen av sidan, eftersom de flesta webbplatserna har sina banderoller där.">
+<!ENTITY fabtab.options.help.title.opacity "Ogenomskinlighet för flik">
+<!ENTITY fabtab.options.help.text.opacity "Den här inställningen låter dig ställa in ogenomskinlighetsgraden för flikarna, d.v.s. hur mycket du kan se igenom en flik. Ett separat alternativ för den aktiva fliken låter dig göra det enklare att se vilken av flikarna som är den aktiva.">
+<!ENTITY fabtab.options.help.title.whitetextthreshold "Tröskelvärde för vit text">
+<!ENTITY fabtab.options.help.text.whitetextthreshold "Det här är tröskelvärdet vid vilket flikens textfärg kommer att ändras till vit istället för standardfärgen svart. Om en flik blir alltför mörk kommer textfärgen automatiskt att ändras till vit. Ju högre värde du anger, desto tidigare kommer texten att ändras till vit. Sätt det här värdet till 0 för att alltid tvinga svart text, eller sätt det till 999 för att tvinga vit text.">
+<!ENTITY fabtab.options.help.title.hostnamecache "Flikfärgscache">
+<!ENTITY fabtab.options.help.text.hostnamecache "Färgen som har beräknats för en flik kommer att cachas baserat på webbplatsens domännamn, t.ex. www.google.com eller addons.mozilla.org. Flikens färg kommer att förbli densamma under hela den tid som du surfar på samma webbplats.">
+<!ENTITY fabtab.options.help.reset "Återställ standardinställningarna">

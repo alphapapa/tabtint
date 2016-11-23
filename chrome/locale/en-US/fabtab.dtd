@@ -1,0 +1,34 @@
+<!ENTITY fabtab.options.title "FabTabs Settings">
+<!ENTITY fabtab.options.general "Miscellaneous">
+<!ENTITY fabtab.options.help "Help">
+<!ENTITY fabtab.options.color "Color">
+<!ENTITY fabtab.options.screenshot "Screenshot">
+<!ENTITY fabtab.options.general.fuzzycolormatch "Color matching strength">
+<!ENTITY fabtab.options.general.preventwhite "Prevent white colors strength">
+<!ENTITY fabtab.options.general.preventblack "Prevent black colors strength">
+<!ENTITY fabtab.options.general.x "Screenshot X">
+<!ENTITY fabtab.options.general.y "Screenshot Y">
+<!ENTITY fabtab.options.general.width "Screenshot Width">
+<!ENTITY fabtab.options.general.height "Screenshot Height">
+<!ENTITY fabtab.options.general.activeonly "Only color the active tab">
+<!ENTITY fabtab.options.general.opacity "Tab opacity (&#37;)">
+<!ENTITY fabtab.options.general.saturation "Saturation (&#37;)">
+<!ENTITY fabtab.options.general.hue "Hue (&#37;)">
+<!ENTITY fabtab.options.general.activetabopacity "Active tab opacity (&#37;)">
+<!ENTITY fabtab.options.general.hidecmitems "Hide tab context menu items (requires restart)">
+<!ENTITY fabtab.options.general.colornavbar "Color all toolbars below the tabs">
+<!ENTITY fabtab.options.general.whitetextthreshold "Contrast threshold for white text">
+<!ENTITY fabtab.options.general.hostnamecache "Cache the tab color per host name">
+<!ENTITY fabtab.options.help.title.fuzzycolormatch "Color matching strength">
+<!ENTITY fabtab.options.help.text.fuzzycolormatch "This setting allows you to group similar colors. By grouping colors you can allow similar shades of a color to be counted as one, giving it the chance to rank higher that another color. This setting can be useful on sites that use gradient banners. The higher you set the value, the more colors are grouped.">
+<!ENTITY fabtab.options.help.title.preventblackandwhite "Prevent black and white colors strength">
+<!ENTITY fabtab.options.help.text.preventblackandwhite "This setting allows you to exclude black and white colors from the result. Websites often consist of a partially white background and black text, which you might find irrelevant for the result of FabTabs. If you set these values to 0 all colors will be taken into account.">
+<!ENTITY fabtab.options.help.title.screenshot "Screenshot">
+<!ENTITY fabtab.options.help.text.screenshot "These are the offsets and dimensions of the screenshot which FabTabs uses to calculate the dominant color. Usually a box near the top is enough, as most sites have their banners up there.">
+<!ENTITY fabtab.options.help.title.opacity "Tab opacity">
+<!ENTITY fabtab.options.help.text.opacity "This setting allows you to set the opacity for the tabs, or how much you can see through a tab. A separate setting for the active tab allows you to make it more easily to see which is the active tab.">
+<!ENTITY fabtab.options.help.title.whitetextthreshold "Threshold for white text">
+<!ENTITY fabtab.options.help.text.whitetextthreshold "This is the threshold at which the tab text color will switch to white instead of the default black. If a tab becomes too dark the text color will automatically switch to white. The higher you set this value the sooner the text will switch to white. Set this value to 0 to always force black text, or set it to 999 to force white text.">
+<!ENTITY fabtab.options.help.title.hostnamecache "Tab color cache">
+<!ENTITY fabtab.options.help.text.hostnamecache "The color computed for a tab will be cached based on the website's host name, e.g. www.google.com or addons.mozilla.org. The tab's color will remain the same while you are browsing the same website.">
+<!ENTITY fabtab.options.help.reset "Restore default settings">

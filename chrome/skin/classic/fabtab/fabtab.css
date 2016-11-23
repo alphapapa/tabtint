@@ -1,0 +1,46 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#fabtab-window .paneButtonIcon {padding-left: 26px; padding-right: 26px; width: 100px;}
+#fabtab-window radio[pane=pp_color] {list-style-image: url("chrome://fabtab/skin/fabtab_settings_color.png")}
+#fabtab-window radio[pane=pp_general] {list-style-image: url("chrome://fabtab/skin/fabtab_settings_general.png")}
+#fabtab-window radio[pane=pp_help] {list-style-image: url("chrome://fabtab/skin/fabtab_settings_help.png")}
+#fabtab-window radio[pane=pp_screenshot] {list-style-image: url("chrome://fabtab/skin/fabtab_settings_screenshot.png")}
+
+#pp_help > vbox.content-box {height: 17em; width: 20em;}
+#pp_help #button-reset {margin-left: 0px;}
+
+#fabtab-window textbox {max-width: 50px;}
+
+#fabtab-window .help {background-color: white; border: solid 1px rgb(124,124,124); overflow: auto; max-height: 13em;}
+#fabtab-window .help_label {font-weight: bold;}
+
+tabs[fabtabtab="true"] tab[lightclose="true"] .tab-close-button {
+    -moz-image-region: rect(0, 64px, 16px, 48px);
+    list-style-image: url("chrome://fabtab/skin/close.png");
+}
+
+tabs[fabtabtab="true"] tab[selected="true"] {
+    font-weight: bold;
+}
+
+tabs[fabtabtab="true"] tab[selected="true"][activetabisbold="false"] {
+    font-weight: normal;
+}
+
+tabs[fabtabtab="true"] tab:not([selected="true"]):hover {
+    opacity: 1 !important;
+}
+
+tabs[fabtabtab="true"] tab[lightclose="true"] .tab-close-button:hover,
+tabs[fabtabtab="true"] tab[lightclose="true"] .tab-close-button:hover[selected="true"] {
+  -moz-image-region: rect(0, 32px, 16px, 16px);
+}
+
+tabs[fabtabtab="true"] tab[lightclose="true"] .tab-close-button:hover:active,
+tabs[fabtabtab="true"] tab[lightclose="true"] .tab-close-button:hover:active[selected="true"] {
+  -moz-image-region: rect(0, 48px, 16px, 32px);
+}
+
+tabs[fabtabtab="true"] tab[lightclose="true"] .tab-close-button[selected="true"] {
+  -moz-image-region: rect(0, 16px, 16px, 0);
+}

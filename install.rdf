@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+<Description about="urn:mozilla:install-manifest">
+    <em:id>fabtab@captaincaveman.nl</em:id>
+    <em:name>FabTabs</em:name>
+    <em:version>1.4.9.1-signed.1-signed</em:version>
+    <em:description>Make your tabs look fabulous!</em:description>
+    <em:creator>Martijn Kooij</em:creator>
+    <em:homepageURL>http://www.captaincaveman.nl</em:homepageURL>
+    <em:iconURL>chrome://fabtab/skin/fabtablogo32.png</em:iconURL>
+    <em:optionsURL>chrome://fabtab/content/options.xul</em:optionsURL>
+    <em:type>2</em:type>
+
+   <em:contributor>Original author Martijn Kooij</em:contributor>
+   <em:contributor>Thanks to LXweb.nl for the GraphX and Mac testing</em:contributor>
+   <em:contributor>Thanks to ViNCeNZo for beta testing</em:contributor>
+   <em:contributor>Thanks to Richard for the English lesson</em:contributor>
+   <em:contributor>Thanks to Pimm for the hue and saturation code</em:contributor>
+   <em:contributor>Thanks to Matej for the hue and saturation code</em:contributor>
+   
+   <em:translator>Pimm (nl)</em:translator>
+   <em:translator>Joerg (de)</em:translator>
+   <em:translator>Goofy (fr)</em:translator>
+   <em:translator>l0stintranslation and MatrixIsAllOver (it)</em:translator>
+   <em:translator>Ghelman (pt-BR)</em:translator>
+   <em:translator>BruceH (zh-CN)</em:translator>
+   <em:translator>PiVV (ru)</em:translator>
+   <em:translator>DakSrbija (sr)</em:translator>
+   <em:translator>Lakrits (sv-SE)</em:translator>
+   <em:translator>mikk_s (cs)</em:translator>
+
+    <!-- Firefox -->
+    <em:targetApplication>
+    <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>22.0a1</em:maxVersion>
+    </Description>
+    </em:targetApplication>
+</Description>
+</RDF>
