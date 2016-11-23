@@ -19,7 +19,7 @@ In case someone is interested, either from loving my work or purely from a busin
 
 Thankfully, according to the source code, when this "feature" is disabled, it actually is disabled.  But if you're like me, you don't want this code on your computer at all, period.  
 
-So I downloaded the previous version and put it into this git repo.  I also put the naughty version in a branch so we can see that the only difference between these two versions is indeed the adware code.  I don't know if there were any other versions released between 1.4.9.1 and 1.5.2.1, as the numbers would suggest, but since the only difference between these two versions is the adware code, I suppose it doesn't matter.
+So I downloaded the previous version and put it into this git repo.  I also put the naughty version in a branch so we can [[https://github.com/alphapapa/fabtabs/compare/1.4.9.1-signed.1-signed...1.5.2.1-signed.1-signed][compare them]] and see that the only difference between these two versions is indeed the adware code.  I don't know if there were any other versions released between 1.4.9.1 and 1.5.2.1, as the numbers would suggest, but since the only difference between these two versions is the adware code, I suppose it doesn't matter.
 
 For the time being, version 1.4.9.1 works, and it is signed by AMO, so you can simply [[https://addons.mozilla.org/firefox/downloads/file/194772/fabtabs-1.4.9-fx.xpi?src%3Dversion-history][install that version directly]].  *Make sure to disable automatic updates for the extension, or Firefox will automatically update to the adware-containing version!*
 
