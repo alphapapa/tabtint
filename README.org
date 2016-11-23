@@ -1,0 +1,36 @@
+* fabtabs fork
+
+November 23, 2016
+
+[[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/][FabTabs]] is a nice Firefox extension that colorizes tabs in the tab bar according to the actual colors of the web page the tab contains.  It was originally made by a fellow named [[http://www.martijnkooij.nl/][Martijn Kooij]], aka Captain Caveman.  Unfortunately, in August of 2012, he [[http://www.martijnkooij.nl/2012/08/end-of-life-for-my-firefox-extensions/][stopped developing his Firefox extensions]].  The last version he released was [[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/versions/1.4.9.1-signed.1-signed][1.4.9.1-signed.1-signed]].
+
+No problem, it still works, right?  Well, almost.  You see, somehow or another, a nefarious person going by the name "[[https://addons.mozilla.org/en-US/firefox/user/ppclick/][ppclick]]" took over the extension's page on the Firefox Addons site (aka AMO), and he released version 1.5.2.1-signed.1-signed, which has this exciting new feature:
+
+#+BEGIN_QUOTE
+Use new and exciting image based price comparison (WizeShoppy) feature for your Online Shopping !!!
+Electronics, Apparel, Computers, Books, DVDs or any other product! Click on products images in any site to also compare prices, find deals, and get coupons. 200 Million products; from U.S., CA, UK, FR, DE, AU 
+#+END_QUOTE
+
+In other words, someone took over the extension and added adware, which injects JavaScript from superfish.com into web pages the user visits.  He also appears to have taken over 3 other Firefox extensions, presumably with the same evil intent.  How this happened, who knows, but Mr. Kooij's [[http://www.martijnkooij.nl/2012/08/end-of-life-for-my-firefox-extensions/][comment]] on his site may give a clue:
+
+#+BEGIN_QUOTE
+In case someone is interested, either from loving my work or purely from a business point of view, in taking over my work you can mail me at extensions[at]captaincaveman.nl. I have made the statistics of all of my extensions on AMO publicly so you can assess what you will be getting yourself into, or to get an estimate of possible revenue.
+#+END_QUOTE
+
+Thankfully, according to the source code, when this "feature" is disabled, it actually is disabled.  But if you're like me, you don't want this code on your computer at all, period.  
+
+So I downloaded the previous version and put it into this git repo.  I also put the naughty version in a branch so we can see that the only difference between these two versions is indeed the adware code.  I don't know if there were any other versions released between 1.4.9.1 and 1.5.2.1, as the numbers would suggest, but since the only difference between these two versions is the adware code, I suppose it doesn't matter.
+
+For the time being, version 1.4.9.1 works, and it is signed by AMO, so you can simply [[https://addons.mozilla.org/firefox/downloads/file/194772/fabtabs-1.4.9-fx.xpi?src%3Dversion-history][install that version directly]].  *Make sure to disable automatic updates for the extension, or Firefox will automatically update to the adware-containing version!*
+
+In the future, it will undoubtedly, eventually be broken by Mozilla.  If so, maybe we can fix it.
+
+Other than that, it would be good to re-release the extension under a new name, without the adware, so people can install it safely without worrying about the adware.  
+
+Also, it would be good if Mozilla took down the adware-infested version.  Of course, it's been 3.5 years since then, and they haven't yet, so...Mozilla?  You there?  You say you want to protect users, and you make it nearly impossible to install unsigned extensions, but you leave this adware-infested garbage on the site, with automatic updates giving it to users?  Such a great job you're doing of protecting poor, innocent, unsuspecting users...
+
+** License
+
+According to the [[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/versions/1.4.9.1-signed.1-signed][add-ons site]], the extension was released under the [[http://www.mozilla.org/MPL/MPL-1.1.html][Mozilla Public License Version 1.1]].
+
+
