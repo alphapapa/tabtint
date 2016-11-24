@@ -2,31 +2,37 @@
 
 NAME := tabtint
 
-TOP = $(shell pwd)
+TOP := $(shell pwd)
 BUILD_DIR := $(TOP)/build
 
 VERSION := $(shell sed -nr 's/.*em:version(>|=")(.*)["<].*/\2/p' $(TOP)/install.rdf | sed 1q)
 
-XPI_NAME = $(NAME)-$(VERSION)
-XPI_FILE =  $(XPI_NAME).xpi
-XPI_PATH = $(BUILD_DIR)/$(XPI:%.xpi=%)
+XPI_NAME := $(NAME)-$(VERSION)
+XPI_FILE := $(XPI_NAME).xpi
+XPI_PATH := $(BUILD_DIR)/$(XPI_NAME:%.xpi=%)
 
 XPI_FILES := chrome defaults META-INF chrome.manifest install.rdf README.org LICENSE
 
+# * Functions
+
+define clean
+	rm -rf $(BUILD_DIR)
+endef
+
 # * Rules
 
-TARGETS = clean xpi
+TARGETS := clean xpi
 
 .PHONY: $(TARGETS)
 
 clean:
-	rm -rf $(BUILD_DIR)
+	$(call clean)
 
 xpi: $(FILES)
 	@echo "Building XPI..."
 
 	# Delete and recreate build directories
-	rm -rfv "$(XPI_PATH)"
+	$(call clean)
 	mkdir -p "$(XPI_PATH)"
 
 	# Copy files to archive directory
@@ -35,4 +41,4 @@ xpi: $(FILES)
 	# Build archive
 	cd "$(XPI_PATH)" && zip --no-dir-entries -9r "$(BUILD_DIR)"/"$(XPI_FILE)" *
 
-	echo "Built XPI: $(BUILD_DIR)/$(XPI_FILE)"
+	@echo "Built XPI: $(BUILD_DIR)/$(XPI_FILE)"
