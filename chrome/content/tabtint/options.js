@@ -1,10 +1,10 @@
 function ResetDefaults()
 {
-    if (DisplayQuestion("fabtab.reset.question"))
+    if (DisplayQuestion("tabtint.reset.question"))
     {
         var oPreferences = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService);
-		var oBranch = oPreferences.getBranch("extensions.fabtab.");
-		var oDefaultBranch = oPreferences.getDefaultBranch("extensions.fabtab.");
+		var oBranch = oPreferences.getBranch("extensions.tabtint.");
+		var oDefaultBranch = oPreferences.getDefaultBranch("extensions.tabtint.");
 
         var oLen = {value:0};
         var aPrefs = oDefaultBranch.getChildList("" , oLen);
@@ -32,7 +32,7 @@ function DisplayQuestion(sMessageID)
 {
     var oPS = Components.classes["@mozilla.org/embedcomp/prompt-service;1"].getService(Components.interfaces.nsIPromptService);
     var iFlags = oPS.BUTTON_TITLE_YES * oPS.BUTTON_POS_0 + oPS.BUTTON_TITLE_NO * oPS.BUTTON_POS_1;
-    var iResult = oPS.confirmEx(null, GetString("fabtab.reset.title"), GetString(sMessageID), iFlags, null, null, null, null, {});
+    var iResult = oPS.confirmEx(null, GetString("tabtint.reset.title"), GetString(sMessageID), iFlags, null, null, null, null, {});
     if (iResult == 0) return true;
     return false;
 }
@@ -40,7 +40,7 @@ function DisplayQuestion(sMessageID)
 function GetString(sName, sVar1, sVar2, sVar3, sVar4, sVar5, sVar6, sVar7)
 {
     var sbService = Components.classes["@mozilla.org/intl/stringbundle;1"].getService(Components.interfaces.nsIStringBundleService);
-    var oStringBundle = sbService.createBundle("chrome://fabtab/locale/fabtab.properties");
+    var oStringBundle = sbService.createBundle("chrome://tabtint/locale/tabtint.properties");
 
     var sResult = "";
 
@@ -57,4 +57,3 @@ function GetString(sName, sVar1, sVar2, sVar3, sVar4, sVar5, sVar6, sVar7)
     }
     return sResult;
 }
-

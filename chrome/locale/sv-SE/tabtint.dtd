@@ -1,0 +1,34 @@
+<!ENTITY tabtint.options.title "Inställningar för Tabtints">
+<!ENTITY tabtint.options.general "Allmänt">
+<!ENTITY tabtint.options.help "Hjälp">
+<!ENTITY tabtint.options.color "Färg">
+<!ENTITY tabtint.options.screenshot "Skärmdump">
+<!ENTITY tabtint.options.general.fuzzycolormatch "Färgmatchningsnivå">
+<!ENTITY tabtint.options.general.preventwhite "Exkluderingsnivå vita färger">
+<!ENTITY tabtint.options.general.preventblack "Exkluderingsnivå svarta färger">
+<!ENTITY tabtint.options.general.x "Skärmdump X">
+<!ENTITY tabtint.options.general.y "Skärmdump Y">
+<!ENTITY tabtint.options.general.width "Skärmdumpens bredd">
+<!ENTITY tabtint.options.general.height "Skärmdumpens höjd">
+<!ENTITY tabtint.options.general.activeonly "Färgsätt endast den aktiva fliken">
+<!ENTITY tabtint.options.general.opacity "Ogenomskinlighet för flik (&#37;)">
+<!ENTITY tabtint.options.general.saturation "Mättnad (&#37;)">
+<!ENTITY tabtint.options.general.hue "Nyans (&#37;)">
+<!ENTITY tabtint.options.general.activetabopacity "Ogenomskinlighet för aktiv flik (&#37;)">
+<!ENTITY tabtint.options.general.hidecmitems "Göm menyobjekten i flikens snabbmeny (kräver omstart)">
+<!ENTITY tabtint.options.general.colornavbar "Färglägg alla verktygsfält nedanför flikarna">
+<!ENTITY tabtint.options.general.whitetextthreshold "Kontrasttröskelvärde för vit text">
+<!ENTITY tabtint.options.general.hostnamecache "Cacha flikfärgen efter domännamn">
+<!ENTITY tabtint.options.help.title.fuzzycolormatch "Färgmatchningsnivå">
+<!ENTITY tabtint.options.help.text.fuzzycolormatch "Den här inställningen låter dig gruppera liknande färger. Genom att gruppera färger kan du låta liknande nyanser av en färg att räknas som en enda, vilket ger den möjlighet att rankas högre än en annan färg. Den här inställningen är användbar på webbplatser som använder toning i banderoller. Ju högre värde du anger, desto fler färger grupperas.">
+<!ENTITY tabtint.options.help.title.preventblackandwhite "Exkluderingsnivå svarta och vita färger">
+<!ENTITY tabtint.options.help.text.preventblackandwhite "Den här inställningen låter dig exkludera svarta och vita färger från resultatet. Webbplatser består av en delvis vit bakgrund och svart text, vilket du kanske anser är irrelevant för resultatet för Tabtints. Om du sätter dessa värden till 0 (noll) kommer alla färger att beaktas.">
+<!ENTITY tabtint.options.help.title.screenshot "Skärmdump">
+<!ENTITY tabtint.options.help.text.screenshot "De här är förskjutningarna och dimensionerna för skärmdumpen som Tabtints använder för att beräkna den dominerande färgen. Vanligtvis räcker det med en ruta nära toppen av sidan, eftersom de flesta webbplatserna har sina banderoller där.">
+<!ENTITY tabtint.options.help.title.opacity "Ogenomskinlighet för flik">
+<!ENTITY tabtint.options.help.text.opacity "Den här inställningen låter dig ställa in ogenomskinlighetsgraden för flikarna, d.v.s. hur mycket du kan se igenom en flik. Ett separat alternativ för den aktiva fliken låter dig göra det enklare att se vilken av flikarna som är den aktiva.">
+<!ENTITY tabtint.options.help.title.whitetextthreshold "Tröskelvärde för vit text">
+<!ENTITY tabtint.options.help.text.whitetextthreshold "Det här är tröskelvärdet vid vilket flikens textfärg kommer att ändras till vit istället för standardfärgen svart. Om en flik blir alltför mörk kommer textfärgen automatiskt att ändras till vit. Ju högre värde du anger, desto tidigare kommer texten att ändras till vit. Sätt det här värdet till 0 för att alltid tvinga svart text, eller sätt det till 999 för att tvinga vit text.">
+<!ENTITY tabtint.options.help.title.hostnamecache "Flikfärgscache">
+<!ENTITY tabtint.options.help.text.hostnamecache "Färgen som har beräknats för en flik kommer att cachas baserat på webbplatsens domännamn, t.ex. www.google.com eller addons.mozilla.org. Flikens färg kommer att förbli densamma under hela den tid som du surfar på samma webbplats.">
+<!ENTITY tabtint.options.help.reset "Återställ standardinställningarna">

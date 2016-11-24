@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://tabtint/locale/tabtint.dtd">
+<?xml-stylesheet href="chrome://tabtint/skin/tabtint.css" type="text/css"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+<script type="application/x-javascript" src="chrome://tabtint/content/tabtint.js"/>
+<stringbundleset id="stringbundleset">
+	<stringbundle id="tabtint-string-bundle" src="chrome://tabtint/locale/tabtint.properties"/>
+</stringbundleset>
+
+<window id="main-window">
+	<html:canvas id="tabtint-canvas" style="display: none;"/>
+</window>
+
+</overlay>

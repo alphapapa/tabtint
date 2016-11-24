@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 <Description about="urn:mozilla:install-manifest">
-    <em:id>fabtab@captaincaveman.nl</em:id>
-    <em:name>FabTabs</em:name>
-    <em:version>1.4.9.1-signed.1-signed</em:version>
-    <em:description>Make your tabs look fabulous!</em:description>
-    <em:creator>Martijn Kooij</em:creator>
-    <em:homepageURL>http://www.captaincaveman.nl</em:homepageURL>
-    <em:iconURL>chrome://fabtab/skin/fabtablogo32.png</em:iconURL>
-    <em:optionsURL>chrome://fabtab/content/options.xul</em:optionsURL>
+    <em:id>tabtint@alphapapa.net</em:id>
+    <em:name>TabTint</em:name>
+    <em:version>0.0.1</em:version>
+    <em:description>Tint tab background color to match web site color</em:description>
+    <em:creator>Adam Porter</em:creator>
+    <em:homepageURL>https://github.com/alphapapa/tabtint</em:homepageURL>
+    <em:iconURL>chrome://tabtint/skin/tabtintlogo32.png</em:iconURL>
+    <em:optionsURL>chrome://tabtint/content/options.xul</em:optionsURL>
     <em:type>2</em:type>
 
    <em:contributor>Original author Martijn Kooij</em:contributor>
@@ -32,9 +32,9 @@
     <!-- Firefox -->
     <em:targetApplication>
     <Description>
-        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:id>{75d94758-762c-4877-958c-ad270ac1a4ec}</em:id>
         <em:minVersion>4.0</em:minVersion>
-        <em:maxVersion>22.0a1</em:maxVersion>
+        <em:maxVersion>50.0</em:maxVersion>
     </Description>
     </em:targetApplication>
 </Description>

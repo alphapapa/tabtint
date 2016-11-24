@@ -1,0 +1,34 @@
+<!ENTITY tabtint.options.title "Možnosti FabTabs">
+<!ENTITY tabtint.options.general "Různé">
+<!ENTITY tabtint.options.help "Nápověda">
+<!ENTITY tabtint.options.color "Barva">
+<!ENTITY tabtint.options.screenshot "Snímek obrazovky">
+<!ENTITY tabtint.options.general.fuzzycolormatch "Odpovídající odstín barvy">
+<!ENTITY tabtint.options.general.preventwhite "Předcházet bílé barvě">
+<!ENTITY tabtint.options.general.preventblack "Předcházet černé barvě">
+<!ENTITY tabtint.options.general.x "Snímek obrazovky X">
+<!ENTITY tabtint.options.general.y "Snímek obrazovky Y">
+<!ENTITY tabtint.options.general.width "Šířka snímku obrazovky">
+<!ENTITY tabtint.options.general.height "Výška snímku obrazovky">
+<!ENTITY tabtint.options.general.activeonly "Obarvit pouze aktivní panel">
+<!ENTITY tabtint.options.general.opacity "Průhlednost panelu (&#37;)">
+<!ENTITY tabtint.options.general.saturation "Sytost (&#37;)">
+<!ENTITY tabtint.options.general.hue "Odstín (&#37;)">
+<!ENTITY tabtint.options.general.activetabopacity "Průhlednost aktivního panelu (&#37;)">
+<!ENTITY tabtint.options.general.hidecmitems "Skrýt položky místní nabídky panelu (vyžaduje restart)">
+<!ENTITY tabtint.options.general.colornavbar "Obarvit všechny lišty pod panely">
+<!ENTITY tabtint.options.general.whitetextthreshold "Hranice kontrastu pro bílý text">
+<!ENTITY tabtint.options.general.hostnamecache "Uložit barvu panel podle názvu stránky">
+<!ENTITY tabtint.options.help.title.fuzzycolormatch "Odpovídající odstín barvy">
+<!ENTITY tabtint.options.help.text.fuzzycolormatch "Tato volba umožňuje seskupit podobné barvy. Jejich seskupením můžete počítat podobné odstíny barvy jako jeden. Tato volba může být užitečná na stránkách s přechodovým logem. Čím větší číslo nastavíte, tím více barev bude seskupeno.">
+<!ENTITY tabtint.options.help.title.preventblackandwhite "Předcházet bílé a černé barvě">
+<!ENTITY tabtint.options.help.text.preventblackandwhite "Tato volba umožňuje vyjmout z výsledku černou a bílou barvu. Stránky se často skládají z částečně bílého pozadí a černého textu, který může být nevhodný pro funkci FabTabs. Nastavíte-li hodnotu 0, budou brány v úvahu všechny barvy.">
+<!ENTITY tabtint.options.help.title.screenshot "Snímek obrazovky">
+<!ENTITY tabtint.options.help.text.screenshot "Toto je vyvážení a rozměry snímku obrazovky, který FabTabs používá k výpočtu převažující barvy. Obvykle je dostatečná horní oblast stránky, kde většinou obsahují své logo.">
+<!ENTITY tabtint.options.help.title.opacity "Průhlednost panelu">
+<!ENTITY tabtint.options.help.text.opacity "Tato volba umožňuje nastavit průhlednost panelu. Oddělená volba pro aktivní panel jej usnadňuje rozeznat.">
+<!ENTITY tabtint.options.help.title.whitetextthreshold "Hranice pro bílý text">
+<!ENTITY tabtint.options.help.text.whitetextthreshold "Toto je hranice, kdy se popisek panelu zobrazí bílý místo černého. Pokud je panel příliš tmavý, barva se automaticky přepne na bílou. Čím vyšší hodnotu zvolíte, tím dříve se tak stane. Při hodnotě 0 zůstává popisek vždy černý, při 999 vždy bílý.">
+<!ENTITY tabtint.options.help.title.hostnamecache "Vyrovnávací paměť barvy panelu">
+<!ENTITY tabtint.options.help.text.hostnamecache "Barva vypočítaná pro panel bude ukládána podle názvu stránky (např. www.mozilla.cz nebo addons.mozilla.org). Barva panelu tak bude stejná kdykoliv budete prohlížet stejnou stránku.">
+<!ENTITY tabtint.options.help.reset "Obnovit výchozí nastavení">

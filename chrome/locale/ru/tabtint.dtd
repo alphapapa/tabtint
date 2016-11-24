@@ -1,0 +1,34 @@
+<!ENTITY tabtint.options.title "FabTabs — Настройки">
+<!ENTITY tabtint.options.general "Разное">
+<!ENTITY tabtint.options.help "Справка">
+<!ENTITY tabtint.options.color "Цвет">
+<!ENTITY tabtint.options.screenshot "Цветокадр">
+<!ENTITY tabtint.options.general.fuzzycolormatch "Интенсивность подобранного цвета">
+<!ENTITY tabtint.options.general.preventwhite "Ограничить интенсивность белого цвета">
+<!ENTITY tabtint.options.general.preventblack "Ограничить интенсивность чёрного цвета">
+<!ENTITY tabtint.options.general.x "Левый верхний угол (X)">
+<!ENTITY tabtint.options.general.y "Левый верхний угол (Y)">
+<!ENTITY tabtint.options.general.width "Ширина кадра">
+<!ENTITY tabtint.options.general.height "Высота кадра">
+<!ENTITY tabtint.options.general.activeonly "Окрашивать только активную вкладку">
+<!ENTITY tabtint.options.general.opacity "Прозрачность вкладки (&#37;)">
+<!ENTITY tabtint.options.general.saturation "Насыщенность (&#37;)">
+<!ENTITY tabtint.options.general.hue "Тон (&#37;)">
+<!ENTITY tabtint.options.general.activetabopacity "Прозрачность активной вкладки (&#37;)">
+<!ENTITY tabtint.options.general.hidecmitems "Скрыть элементы контекстного меню вкладки (требуется перезапуск)">
+<!ENTITY tabtint.options.general.colornavbar "Окрашивать все панели инструментов, расположенные ниже вкладок">
+<!ENTITY tabtint.options.general.whitetextthreshold "Порог контрастности для белого текста">
+<!ENTITY tabtint.options.general.hostnamecache "Запоминать цвет вкладки по имени узла">
+<!ENTITY tabtint.options.help.title.fuzzycolormatch "Интенсивность подобранного цвета">
+<!ENTITY tabtint.options.help.text.fuzzycolormatch "Этот параметр позволяет вам группировать похожие цвета. Группируя цвета вы позволяете сходным оттенкам цвета считаться одним и тем же цветом, давая шанс этому цвету занять место выше чем другой цвет. Этот параметр может быть полезным для сайтов использующих градиентные баннеры. Чем выше установленное значение, тем больше цветов сгруппировывается.">
+<!ENTITY tabtint.options.help.title.preventblackandwhite "Ограничить интенсивность белого и чёрного цвета">
+<!ENTITY tabtint.options.help.text.preventblackandwhite "Эти параметры позволяют вам исключать белый и чёрный цвета из результата. Веб-сайты зачастую состоят из частично белого фона и чёрного текста, которые, по-вашему мнению, могут быть не важны для результата FabTabs. Если вы установите эти значения в 0, то во внимание будут приниматься все цвета.">
+<!ENTITY tabtint.options.help.title.screenshot "Цветокадр">
+<!ENTITY tabtint.options.help.text.screenshot "Задаёт смещение и размер прямоугольной области экрана, которая используется FabTabs для вычисления доминирующего цвета. Обычно, хорошим выбором является верхняя часть страницы, поскольку большинство сайтов размещает там свои баннеры.">
+<!ENTITY tabtint.options.help.title.opacity "Прозрачность вкладки">
+<!ENTITY tabtint.options.help.text.opacity "Этот параметр позволяет вам устанавливать прозрачность для вкладок. Чем меньше установленное значение, тем прозрачнее вкладка. Отдельный параметр для активной вкладки позволяет более легко отличать активную вкладку от других.">
+<!ENTITY tabtint.options.help.title.whitetextthreshold "Порог контрастности для белого текста">
+<!ENTITY tabtint.options.help.text.whitetextthreshold "Пороговое значение при котором цвет текста на вкладке переключится на белый вместо чёрного по умолчанию. Если вкладка станет слишком тёмной, то цвет текста автоматически переключится на белый. Чем выше установленное значение, тем скорее текст переключится на белый. Значение 0 будет всегда выводить чёрный текст, а 999 — белый.">
+<!ENTITY tabtint.options.help.title.hostnamecache "Запоминать цвет вкладки">
+<!ENTITY tabtint.options.help.text.hostnamecache "Цвет, вычисленный для вкладки, будет запоминаться по имени узла веб-сайта, например. www.google.com или addons.mozilla.org. Пока вы будете просматривать тот же веб-сайт цвет вкладки останется тем же самым.">
+<!ENTITY tabtint.options.help.reset "Восстановить настройки по умолчанию">

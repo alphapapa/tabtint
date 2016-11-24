@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://tabtint/skin/tabtint.css" type="text/css" ?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/content/preferences/preferences.css"?>
+<?xml-stylesheet href="chrome://browser/skin/preferences/preferences.css"?>
+<!DOCTYPE page SYSTEM "chrome://tabtint/locale/tabtint.dtd">
+<prefwindow id="tabtint-window" type="prefwindow"
+        title="&tabtint.options.title;"
+        buttons="accept,cancel"
+        persist="screenX screenY"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<prefpane id="pp_color" label="&tabtint.options.color;">
+    <preferences>
+        <preference id="pref_fuzzycolormatch" name="extensions.tabtint.fuzzycolormatch" type="int" instantApply="true"/>
+        <preference id="pref_hue" name="extensions.tabtint.hue" type="int" instantApply="true"/>
+        <preference id="pref_saturation" name="extensions.tabtint.saturation" type="int" instantApply="true"/>
+        <preference id="pref_preventwhite" name="extensions.tabtint.preventwhite" type="int" instantApply="true"/>
+        <preference id="pref_preventblack" name="extensions.tabtint.preventblack" type="int" instantApply="true"/>
+        <preference id="pref_opacity" name="extensions.tabtint.opacity" type="int" instantApply="true"/>
+        <preference id="pref_activetabopacity" name="extensions.tabtint.activetabopacity" type="int" instantApply="true"/>
+        <preference id="pref_whitetextthreshold" name="extensions.tabtint.whitetextthreshold" type="int" instantApply="true"/>
+    </preferences>
+
+    <grid>
+        <columns>
+            <column flex="1"/>
+            <column flex="2"/>
+        </columns>
+        <rows>
+            <row>
+                <label value="&tabtint.options.general.fuzzycolormatch;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_fuzzycolormatch" type="number" max="999" increment="10"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.preventwhite;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_preventwhite" type="number" max="255" increment="10"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.preventblack;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_preventblack" type="number" max="255" increment="10"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.hue;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_hue" type="number" min="0" max="100" increment="1"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.saturation;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_saturation" type="number" min="0" max="100" increment="1"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.opacity;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_opacity" type="number" min="0" max="100" increment="1"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.activetabopacity;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_activetabopacity" type="number" min="0" max="100" increment="1"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.whitetextthreshold;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_whitetextthreshold" type="number" min="0" max="999" increment="10"/>
+            </row>
+        </rows>
+    </grid>
+</prefpane>
+
+<prefpane id="pp_screenshot" label="&tabtint.options.screenshot;">
+    <preferences>
+        <preference id="pref_x" name="extensions.tabtint.x" type="int" instantApply="true"/>
+        <preference id="pref_y" name="extensions.tabtint.y" type="int" instantApply="true"/>
+        <preference id="pref_width" name="extensions.tabtint.width" type="int" instantApply="true"/>
+        <preference id="pref_height" name="extensions.tabtint.height" type="int" instantApply="true"/>
+    </preferences>
+
+    <grid>
+        <columns>
+            <column flex="1"/>
+            <column flex="2"/>
+        </columns>
+        <rows>
+            <row>
+                <label value="&tabtint.options.general.x;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_x" type="number" max="1024" increment="5"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.y;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_y" type="number" max="1024" increment="5"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.width;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_width" type="number" max="2048" increment="5"/>
+            </row>
+            <row>
+                <label value="&tabtint.options.general.height;" style="padding-top: 3px; margin-right: 1px;"/>
+                <textbox preference="pref_height" type="number" max="2048" increment="5"/>
+            </row>
+        </rows>
+    </grid>
+</prefpane>
+
+<prefpane id="pp_general" label="&tabtint.options.general;">
+    <preferences>
+        <preference id="pref_activeonly" name="extensions.tabtint.activeonly" type="bool" instantApply="true"/>
+        <preference id="pref_hidecmitems" name="extensions.tabtint.hidecmitems" type="bool"/>
+        <preference id="pref_colornavbar" name="extensions.tabtint.colornavbar" type="bool"/>
+        <preference id="pref_hostnamecache" name="extensions.tabtint.hostnamecache" type="bool" instantApply="true"/>
+    </preferences>
+
+    <checkbox preference="pref_activeonly" label="&tabtint.options.general.activeonly;"/>    
+    <checkbox preference="pref_colornavbar" label="&tabtint.options.general.colornavbar;"/>    
+    <checkbox preference="pref_hidecmitems" label="&tabtint.options.general.hidecmitems;"/>    
+    <checkbox preference="pref_hostnamecache" label="&tabtint.options.general.hostnamecache;"/>    
+</prefpane>
+
+<prefpane id="pp_help" label="&tabtint.options.help;">
+    <vbox class="help">
+        <label class="help_label" value="&tabtint.options.help.title.fuzzycolormatch;"/>
+        <description>&tabtint.options.help.text.fuzzycolormatch;</description>
+        <label class="help_label" value="&tabtint.options.help.title.preventblackandwhite;"/>
+        <description>&tabtint.options.help.text.preventblackandwhite;</description>
+        <label class="help_label" value="&tabtint.options.help.title.screenshot;"/>
+        <description>&tabtint.options.help.text.screenshot;</description>
+        <label class="help_label" value="&tabtint.options.help.title.opacity;"/>
+        <description>&tabtint.options.help.text.opacity;</description>
+        <label class="help_label" value="&tabtint.options.help.title.whitetextthreshold;"/>
+        <description>&tabtint.options.help.text.whitetextthreshold;</description>
+        <label class="help_label" value="&tabtint.options.help.title.hostnamecache;"/>
+        <description>&tabtint.options.help.text.hostnamecache;</description>
+    </vbox>
+    <hbox>
+        <button id="button-reset" label="&tabtint.options.help.reset;" oncommand="ResetDefaults();"/>
+        <hbox flex="1"/>
+    </hbox>
+</prefpane>
+
+<script type="application/x-javascript" src="chrome://tabtint/content/options.js"/>
+</prefwindow>

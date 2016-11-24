@@ -1,19 +1,19 @@
-content fabtab	chrome/content/fabtab/
+content tabtint	chrome/content/tabtint/
 
-overlay	chrome://browser/content/browser.xul	chrome://fabtab/content/fabtab.xul
+overlay	chrome://browser/content/browser.xul	chrome://tabtint/content/tabtint.xul
 
-skin	fabtab   classic/1.0   chrome/skin/classic/fabtab/
+skin	tabtint   classic/1.0   chrome/skin/classic/tabtint/
 
-style	chrome://browser/content/browser.xul	chrome://fabtab/skin/fabtab.css
+style	chrome://browser/content/browser.xul	chrome://tabtint/skin/tabtint.css
 
-locale  fabtab	en-US	chrome/locale/en-US/
-locale  fabtab	de	chrome/locale/de/
-locale  fabtab	nl	chrome/locale/nl/
-locale  fabtab	fr	chrome/locale/fr/
-locale  fabtab	it	chrome/locale/it/
-locale  fabtab	pt-BR	chrome/locale/pt-BR/
-locale  fabtab	zh-CN	chrome/locale/zh-CN/
-locale  fabtab	ru	chrome/locale/ru/
-locale  fabtab	sr	chrome/locale/sr/
-locale  fabtab	sv-SE	chrome/locale/sv-SE/
-locale  fabtab  cs  chrome/locale/cs/
+locale  tabtint	en-US	chrome/locale/en-US/
+locale  tabtint	de	chrome/locale/de/
+locale  tabtint	nl	chrome/locale/nl/
+locale  tabtint	fr	chrome/locale/fr/
+locale  tabtint	it	chrome/locale/it/
+locale  tabtint	pt-BR	chrome/locale/pt-BR/
+locale  tabtint	zh-CN	chrome/locale/zh-CN/
+locale  tabtint	ru	chrome/locale/ru/
+locale  tabtint	sr	chrome/locale/sr/
+locale  tabtint	sv-SE	chrome/locale/sv-SE/
+locale  tabtint  cs  chrome/locale/cs/

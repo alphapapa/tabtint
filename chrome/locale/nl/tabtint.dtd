@@ -1,0 +1,34 @@
+<!ENTITY tabtint.options.title "FabTabs Instellingen">
+<!ENTITY tabtint.options.general "Algemeen">
+<!ENTITY tabtint.options.help "Hulp">
+<!ENTITY tabtint.options.color "Kleur">
+<!ENTITY tabtint.options.screenshot "Schermafdruk">
+<!ENTITY tabtint.options.general.fuzzycolormatch "Kleuren afvlakken">
+<!ENTITY tabtint.options.general.preventwhite "Voorkom lichte kleuren">
+<!ENTITY tabtint.options.general.preventblack "Voorkom donkere kleuren">
+<!ENTITY tabtint.options.general.x "Schermafdruk x">
+<!ENTITY tabtint.options.general.y "Schermafdruk y">
+<!ENTITY tabtint.options.general.width "Schermafdruk breedte">
+<!ENTITY tabtint.options.general.height "Schermafdruk hoogte">
+<!ENTITY tabtint.options.general.activeonly "Kleur alleen het actieve tabblad">
+<!ENTITY tabtint.options.general.opacity "Tabblad opaciteit (&#37;)">
+<!ENTITY tabtint.options.general.saturation "Kleurverzadiging (&#37;)">
+<!ENTITY tabtint.options.general.hue "Tint (&#37;)">
+<!ENTITY tabtint.options.general.activetabopacity "Actieve tabblad opaciteit (&#37;)">
+<!ENTITY tabtint.options.general.hidecmitems "Verberg tabblad context menu opties (vereist herstart)">
+<!ENTITY tabtint.options.general.colornavbar "Kleur alle werkbalken onder de tabbladen">
+<!ENTITY tabtint.options.general.whitetextthreshold "Contrast grens voor witte tekst">
+<!ENTITY tabtint.options.general.hostnamecache "Bewaar de tabblad kleur per hostnaam">
+<!ENTITY tabtint.options.help.title.fuzzycolormatch "Kleuren afvlakken">
+<!ENTITY tabtint.options.help.text.fuzzycolormatch "Deze instelling bepaalt in hoeverre gelijkende kleuren gegroepeerd worden. Door kleuren te groeperen worden gelijkende kleuren als één kleur geteld, waardoor die groep voorrang kan krijgen op een andere kleur. Deze instelling kan bruikbaar zijn bij websites die een gradient banner gebruiken. Hoe hoger de waarde, hoe meer kleuren worden gegroepeerd.">
+<!ENTITY tabtint.options.help.title.preventblackandwhite "Voorkom lichte en voorkom donkere kleuren">
+<!ENTITY tabtint.options.help.text.preventblackandwhite "Deze instellingen bepaalt welke lichte of donkere kleuren uitgesloten worden. Websites bestaan vaak uit een deels witte achtergrond en zwarte tekst, deze kleuren vindt u misschien ontoepasselijk voor de resultaten van FabTabs. Als u deze waarden op 0 zet worden er geen kleuren uitgesloten.">
+<!ENTITY tabtint.options.help.title.screenshot "Schermafdruk">
+<!ENTITY tabtint.options.help.text.screenshot "Dit zijn de locaties en afmetingen van de schermafdruk die FabTabs gebruikt om de dominante kleur te bepalen. Vaak is een rechthoek dichtbij de bovenzijde goed, gezien de meeste websites hun banner daar hebben staan.">
+<!ENTITY tabtint.options.help.title.opacity "Tabblad opaciteit">
+<!ENTITY tabtint.options.help.text.opacity "Deze instelling bepaalt de opaciteit of ondoorzichtigheid van de tabbladen. Het zetten van de opaciteit van het actieve tabblad op een andere waarde dan de opaciteit van de andere tabbladen kan het gemakkelijker maken te zien welk tabblad actief is.">
+<!ENTITY tabtint.options.help.title.whitetextthreshold "Contrast grens voor witte tekst">
+<!ENTITY tabtint.options.help.text.whitetextthreshold "Deze instelling bepaalt de grens waarop de tekst op het tabblad van zwart naar wit verspringt. Als een tabblad te donker is, zal de tekst wit worden. Hoe hoger u deze waarde zet, hoe eerder de tekst naar wit verspringt. Als u deze waarde op 0 zet is de tekst altijd zwart; zet u deze waarde op 999 dan is de tekst altijd wit.">
+<!ENTITY tabtint.options.help.title.hostnamecache "Bewaar de tabblad kleur per hostnaam">
+<!ENTITY tabtint.options.help.text.hostnamecache "Wanneer deze instelling aan staat wordt de kleur van een tabblad bewaard voor de hostnaam van de website, bijvoorbeeld www.google.com of addons.mozilla.org. De kleur van een tabblad is dan constant zolang u op dezelfde website blijft.">
+<!ENTITY tabtint.options.help.reset "Standaard instellingen terugzetten">

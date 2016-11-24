@@ -1,0 +1,34 @@
+<!ENTITY tabtint.options.title "FabTabs - опције">
+<!ENTITY tabtint.options.general "Разно">
+<!ENTITY tabtint.options.help "Помоћ">
+<!ENTITY tabtint.options.color "Боја">
+<!ENTITY tabtint.options.screenshot "Снимак екрана">
+<!ENTITY tabtint.options.general.fuzzycolormatch "Јачина поклапања боје">
+<!ENTITY tabtint.options.general.preventwhite "Не дозволи јаку белу">
+<!ENTITY tabtint.options.general.preventblack "Не дозволи јаку црну">
+<!ENTITY tabtint.options.general.x "Снимак екрана X">
+<!ENTITY tabtint.options.general.y "Снимак екрана Y">
+<!ENTITY tabtint.options.general.width "Ширина снимка екрана">
+<!ENTITY tabtint.options.general.height "Висина снимка екрана">
+<!ENTITY tabtint.options.general.activeonly "Обој само активни језичак">
+<!ENTITY tabtint.options.general.opacity "Непрозирност (&#37;)">
+<!ENTITY tabtint.options.general.saturation "Засићење (&#37;)">
+<!ENTITY tabtint.options.general.hue "Нијанса (&#37;)">
+<!ENTITY tabtint.options.general.activetabopacity "Непрозирност активног језичка (&#37;)">
+<!ENTITY tabtint.options.general.hidecmitems "Сакриј ставке приручног менија језичка (потребно поновно покретање)">
+<!ENTITY tabtint.options.general.colornavbar "Обој све траке са алаткама испод језичака">
+<!ENTITY tabtint.options.general.whitetextthreshold "Грубо нијансирање за бели текст">
+<!ENTITY tabtint.options.general.hostnamecache "Кеширај боју језичка по називу сервера">
+<!ENTITY tabtint.options.help.title.fuzzycolormatch "Јачина поклапања боје">
+<!ENTITY tabtint.options.help.text.fuzzycolormatch "Ово подешавање вам омогућава да групишете сличне боје. Тиме омогућавате да се сличне нијансе исте боје рачунају као једна. Ово може да бде корисно на страницама које у рекламним натписима користе прелазе боја. Што подесите већу вредност, боје ће више бити груписане.">
+<!ENTITY tabtint.options.help.title.preventblackandwhite "Не дозволи јаку црну и белу">
+<!ENTITY tabtint.options.help.text.preventblackandwhite "Ово подешавање вам омогућава да изузмете црну и белу из резултата. Интернетске странице често садрже делимично белу позадину и црни текст, што може да бде безначајно за резултат FabTabs-а. Ако овде вредности поставите на 0, све боје ће бити пребачене на налог.">
+<!ENTITY tabtint.options.help.title.screenshot "Снимак екрана">
+<!ENTITY tabtint.options.help.text.screenshot "Ово су поставке за померање и мере снимка екрана које FabTabs користи за израчунавање доминантне боје. Обично је коцка пир врху довољна, јер већина страница ту смешта рекламне натписе.">
+<!ENTITY tabtint.options.help.title.opacity "Провидност језичка">
+<!ENTITY tabtint.options.help.text.opacity "Ово подешавање вам омогућава да подесите прозирност језичака. Одвојено подешавање активног језичка омогућава да га лакше уочите.">
+<!ENTITY tabtint.options.help.title.whitetextthreshold "Грубо нијансирање за бели текст">
+<!ENTITY tabtint.options.help.text.whitetextthreshold "Ово је грубо нијансирање, када ће боја текста језичка бити промењена са црне на белу. Ако језичак постане претаман, боја текста ће аутоматски бити промењена у белу. Што поставите вишу вредност, текст ће раније постати бео. Поставите  вредност на 0 да бисте увек користили црни текст, а 999 бисте увек користили бели текст.">
+<!ENTITY tabtint.options.help.title.hostnamecache "Кеш боје језичка">
+<!ENTITY tabtint.options.help.text.hostnamecache "Израчуната боја језичка, заснована на називу сервера (на пример www.google.com). ће бити кеширана. Боја језичка ће остати иста док прегледате исту страницу.">
+<!ENTITY tabtint.options.help.reset "Врати на подразумеване вредности">

@@ -1,0 +1,46 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#tabtint-window .paneButtonIcon {padding-left: 26px; padding-right: 26px; width: 100px;}
+#tabtint-window radio[pane=pp_color] {list-style-image: url("chrome://tabtint/skin/tabtint_settings_color.png")}
+#tabtint-window radio[pane=pp_general] {list-style-image: url("chrome://tabtint/skin/tabtint_settings_general.png")}
+#tabtint-window radio[pane=pp_help] {list-style-image: url("chrome://tabtint/skin/tabtint_settings_help.png")}
+#tabtint-window radio[pane=pp_screenshot] {list-style-image: url("chrome://tabtint/skin/tabtint_settings_screenshot.png")}
+
+#pp_help > vbox.content-box {height: 17em; width: 20em;}
+#pp_help #button-reset {margin-left: 0px;}
+
+#tabtint-window textbox {max-width: 50px;}
+
+#tabtint-window .help {background-color: white; border: solid 1px rgb(124,124,124); overflow: auto; max-height: 13em;}
+#tabtint-window .help_label {font-weight: bold;}
+
+tabs[tabtinttab="true"] tab[lightclose="true"] .tab-close-button {
+    -moz-image-region: rect(0, 64px, 16px, 48px);
+    list-style-image: url("chrome://tabtint/skin/close.png");
+}
+
+tabs[tabtinttab="true"] tab[selected="true"] {
+    font-weight: bold;
+}
+
+tabs[tabtinttab="true"] tab[selected="true"][activetabisbold="false"] {
+    font-weight: normal;
+}
+
+tabs[tabtinttab="true"] tab:not([selected="true"]):hover {
+    opacity: 1 !important;
+}
+
+tabs[tabtinttab="true"] tab[lightclose="true"] .tab-close-button:hover,
+tabs[tabtinttab="true"] tab[lightclose="true"] .tab-close-button:hover[selected="true"] {
+    -moz-image-region: rect(0, 32px, 16px, 16px);
+}
+
+tabs[tabtinttab="true"] tab[lightclose="true"] .tab-close-button:hover:active,
+tabs[tabtinttab="true"] tab[lightclose="true"] .tab-close-button:hover:active[selected="true"] {
+    -moz-image-region: rect(0, 48px, 16px, 32px);
+}
+
+tabs[tabtinttab="true"] tab[lightclose="true"] .tab-close-button[selected="true"] {
+    -moz-image-region: rect(0, 16px, 16px, 0);
+}
