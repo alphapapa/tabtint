@@ -4,7 +4,9 @@ TabTint is a fork of the old FabTabs Firefox extension.  Unlike the final versio
 
 ** Installation
 
-Hopefully we can get this on Mozilla's addons site (AMO) in the future.  For now, you can install it manually, but you will have to [[https://github.com/5digits/dactyl/wiki/Disable-extension-signing-requirement-in-Firefox-49-or-later][disable extension signing]] first.  Then just install the XPI file (e.g. drag it from a file manager to the Firefox window, or run =firefox /path/to/xpi=.
+Hopefully we can get this on Mozilla's addons site (AMO) in the future.  When it's been approved, it should be available [[https://addons.mozilla.org/en-US/firefox/addon/tabtint][here]].
+
+For now, you can install it manually, but you will have to [[https://github.com/5digits/dactyl/wiki/Disable-extension-signing-requirement-in-Firefox-49-or-later][disable extension signing]] first.  Then just install the XPI file (e.g. drag it from a file manager to the Firefox window, or run =firefox /path/to/xpi=.
 
 ** Development
 
