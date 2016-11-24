@@ -1,7 +1,11 @@
 # * Variables
 
+NAME := tabtint
+
 TOP = $(shell pwd)
 BUILD_DIR := $(TOP)/build
+
+VERSION := $(shell sed -nr 's/.*em:version(>|=")(.*)["<].*/\2/p' $(TOP)/install.rdf | sed 1q)
 
 XPI_NAME = $(NAME)-$(VERSION)
 XPI_FILE =  $(XPI_NAME).xpi
