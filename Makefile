@@ -11,7 +11,7 @@ XPI_NAME = $(NAME)-$(VERSION)
 XPI_FILE =  $(XPI_NAME).xpi
 XPI_PATH = $(BUILD_DIR)/$(XPI:%.xpi=%)
 
-XPI_FILES := chrome defaults META-INF chrome.manifest install.rdf
+XPI_FILES := chrome defaults META-INF chrome.manifest install.rdf README.org LICENSE
 
 # * Rules
 
