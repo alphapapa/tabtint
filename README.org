@@ -1,6 +1,26 @@
-* fabtabs fork
+* TabTint
 
-November 23, 2016
+TabTint is a fork of the old FabTabs Firefox extension.  Unlike the final version of FabTabs, TabTint contains no adware.  See the [[#history][History]] section for more info.
+
+** Installation
+
+Hopefully we can get this on Mozilla's addons site (AMO) in the future.  For now, you can install it manually, but you will have to [[https://github.com/5digits/dactyl/wiki/Disable-extension-signing-requirement-in-Firefox-49-or-later][disable extension signing]] first.  Then just install the XPI file (e.g. drag it from a file manager to the Firefox window, or run =firefox /path/to/xpi=.
+
+** Development
+
+Hopefully this will continue working for the foreseeable future, however, with Mozilla's constant churn and plans to deprecate existing extension APIs, I suppose it's only a matter of time before they break it.  When that happens, hopefully we can fix it.
+
+Contributions are welcome!
+
+To build the XPI file, just run =make xpi= from the project's top-level directory.
+
+*** Ideas
+
+**** Migrate to newer extension APIs
+
+It would be nice to use the newer extension APIs if possible.  It would remove the restart-Firefox requirement, and would help future-proof the extension.
+
+** History
 
 [[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/][FabTabs]] is a nice Firefox extension that colorizes tabs in the tab bar according to the actual colors of the web page the tab contains.  It was originally made by a fellow named [[http://www.martijnkooij.nl/][Martijn Kooij]], aka Captain Caveman.  Unfortunately, in August of 2012, he [[http://www.martijnkooij.nl/2012/08/end-of-life-for-my-firefox-extensions/][stopped developing his Firefox extensions]].  The last version he released was [[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/versions/1.4.9.1-signed.1-signed][1.4.9.1-signed.1-signed]].
 
@@ -31,6 +51,6 @@ Also, it would be good if Mozilla took down the adware-infested version.  Of cou
 
 ** License
 
-According to the [[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/versions/1.4.9.1-signed.1-signed][add-ons site]], the extension was released under the [[http://www.mozilla.org/MPL/MPL-1.1.html][Mozilla Public License Version 1.1]].
+According to the [[https://addons.mozilla.org/EN-us/firefox/addon/fabtabs/versions/1.4.9.1-signed.1-signed][add-ons site]], FabTabs was released under the [[http://www.mozilla.org/MPL/MPL-1.1.html][Mozilla Public License Version 1.1]].
 
 
